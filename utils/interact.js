@@ -1,5 +1,5 @@
 const { createAlchemyWeb3 } = require("@alch/alchemy-web3");
-const web3 = createAlchemyWeb3(process.env.NEXT_PUBLIC_API_URL);
+const web3 = createAlchemyWeb3("wss://eth-rinkeby.alchemyapi.io/v2/bhwL9aR43PcVagejzxaZJZRNvdINBM2E");
 
 const contract = require("../artifacts/contracts/EmojiFaces.sol/EmojiFaces.json");
 const contractAddress = "0x241F160A217Cbd926DfcEA6385364785f4f2270A";
